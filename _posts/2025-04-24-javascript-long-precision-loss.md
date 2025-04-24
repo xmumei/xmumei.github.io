@@ -1,6 +1,6 @@
 ---
 layout:mypost
-title: Javascript Long 类型精度丢失
+title: Javascript-Long类型精度丢失
 categories: [踩坑]
 ---
 
