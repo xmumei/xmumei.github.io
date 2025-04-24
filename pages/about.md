@@ -1,15 +1,15 @@
 ---
 layout: mypost
-title: 关于我
+title: About
 ---
 
-> 该博客托管于 GitHub Page，主题使用 [Tmaize-blog](https://github.com/TMaize/tmaize-blog)
+> On GitHub Page，Theme: [Tmaize-blog](https://github.com/TMaize/tmaize-blog)
 
-## 关于我
+## About
 
-博客建立于2025年4月24日，希望能一直写下去。
+Just coding, just recording.
 
-## 联系我
+## Contact
 
 - Email&nbsp;: [316yxz@gmail.com](mailto:316yxz@gmail.com)
 
