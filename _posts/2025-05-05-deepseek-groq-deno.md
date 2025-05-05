@@ -8,9 +8,9 @@ categories: [瞎折腾]
 
 ### 通过 Groq 获取 Secret Key
 
-![1](../posts/2025/05/05/1.png)
+![1](1.png)
 
-![2](../posts/2025/05/05/2.png)
+![2](2.png)
 
 得到 Secret Key 后, 可以使用下面这段 curl 脚本进行测试, 注意将 Authorization 中的汉字替换为你得到的 API:
 
@@ -61,9 +61,9 @@ curl https://api.groq.com/openai/v1/chat/completions \
 
 Deno 是一个现代化的 Javascript 运行时, 内置 HTTP 服务器, 很适合快速搭建代理.
 
-![3](../posts/2025/05/05/3.png)
+![3](3.png)
 
-![4](../posts/2025/05/05/4.png)
+![4](4.png)
 
 要粘贴的代码如下:
 
