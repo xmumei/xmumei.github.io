@@ -59,7 +59,7 @@ curl https://api.groq.com/openai/v1/chat/completions \
 
 ### Deno 转发
 
-Deno 是一个现代化的 Javascript 运行时, 内置 HTTP 服务器, 很适合快速搭建代理.
+[Deno](http://dash.deno.com) 是一个现代化的 Javascript 运行时, 内置 HTTP 服务器, 很适合快速搭建代理.
 
 ![3](3.png)
 
@@ -67,7 +67,7 @@ Deno 是一个现代化的 Javascript 运行时, 内置 HTTP 服务器, 很适�
 
 要粘贴的代码如下:
 
-````js
+```js
 interface RateLimiter {
   requests: number;
   tokens: number;
@@ -212,7 +212,7 @@ async function handleRequest(request: Request): Promise<Response> {
 Deno.serve(handleRequest);
 ```
 
-最后再用 curl 测试一下,
+最后再用 curl 测试一下:
 
 ```bash
 curl 将这里替换为上面生成的地址/api.groq.com/openai/v1/chat/completions \
@@ -225,6 +225,6 @@ curl 将这里替换为上面生成的地址/api.groq.com/openai/v1/chat/complet
       {"role": "user", "content": "你是什么模型？"}
     ]
   }'
-````
+```
 
 即使使用墙内网络也可以正常得到结果
